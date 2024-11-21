@@ -133,7 +133,7 @@ article header div img {
 /* COMEÇO DA 3ª. SEÇÃO */
 
 #conteiner_1 {
-    height: 42vh;
+    height: 55vh;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -153,37 +153,70 @@ article header div img {
     justify-content: space-around;
 }
 
-.card {
-    display: flex;
-    flex-flow: column;
-    gap: 15px;
-}
-
 .imagem1 {
     display: flex;
-    width: 130px;
-    height: 130px;
+    width: 170px;
+    height: 160px;
     margin: 0px;
     padding: px;
     border: 0px 0px 0px rgba(0, 0, 0, .07);
 }
 
-.texto_card p {
-    padding: 5px;
-    width: 100px;
+#card1 .texto_card p {
+    padding: 10px;
     text-align: center;
     font-weight: bold;
 }
 
-.texto_card {
+#card1 .texto_card {
+    height: 15vh;
+    width: 20vh;
     text-align: left;
 }
+
+#card2 .texto_card p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#card2 .texto_card {
+    height: 15vh;
+    width: 20vh;
+    text-align: left;
+}
+
+#card3 .texto_card p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#card3 .texto_card {
+    height: 15vh;
+    width: 20vh;
+    text-align: left;
+}
+
+#card4 .texto_card p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#card4 .texto_card {
+    height: 15vh;
+    width: 20vh;
+    text-align: left;
+}
+
+
 
 /* COMEÇO DA 4ª. SEÇÃO */
 
 #conteudo_2 {
     background-color: rgb(212, 208, 208);
-    height: 42vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -235,7 +268,7 @@ article header div img {
 #conteudo_3 #item_total .item_faixa {
     background-color: blue;
     width: 70vw;
-    height: 30vh;
+    height: 40vh;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
