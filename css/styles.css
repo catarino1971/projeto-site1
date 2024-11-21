@@ -60,6 +60,7 @@ header img {
     border-radius: 6px;
 }
 
+
 nav header p {
     background-color: var(--highlight);
     font-size: 13px;
@@ -71,12 +72,28 @@ nav div {
     width: 35vw;
     display: flex;
     justify-content: space-between;
-    transition: background-color .3;
+    transition: background-color .3s;
 }
 
 nav div a {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
     text-decoration: none;
 }
+
+article header div #texto1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+article header div #texto2 {
+    color: white;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
 
 /* Começa tag Nosssos Serviços */
 
@@ -133,7 +150,6 @@ article header div img {
 /* COMEÇO DA 3ª. SEÇÃO */
 
 #conteiner_1 {
-    background-color: green;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -149,7 +165,6 @@ article header div img {
 
 #cartao_2 {
     display: flex;
-    background-color: red;
 }
 
 .item_card {
@@ -165,7 +180,6 @@ article header div img {
 }
 
 #card1 .texto_card {
-    background-color: yellow;
     width: 25vh;
     margin-left: 30px;
     text-align: center;
@@ -177,7 +191,6 @@ article header div img {
 }
 
 #card2 .texto_card {
-    background-color: yellow;
     width: 25vh;
     margin-left: 30px;
     text-align: center;
@@ -189,7 +202,6 @@ article header div img {
 }
 
 #card3 .texto_card {
-    background-color: yellow;
     width: 25vh;
     margin-left: 30px;
     text-align: center;
@@ -201,7 +213,6 @@ article header div img {
 }
 
 #card4 .texto_card {
-    background-color: yellow;
     width: 25vh;
     margin-left: 30px;
     text-align: center;
